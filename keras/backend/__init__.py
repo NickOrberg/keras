@@ -27,7 +27,7 @@ if not os.path.exists(_keras_dir):
 if os.name == 'nt':
     _BACKEND = 'theano'
 else:
-    _BACKEND = 'tensorflow'
+    _BACKEND = 'theano'
 
 _config_path = os.path.expanduser(os.path.join(_keras_dir, 'keras.json'))
 if os.path.exists(_config_path):
