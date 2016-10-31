@@ -140,9 +140,9 @@ sudo pip install keras
 ------------------
 
 
-## Switching from TensorFlow to Theano
+## Switching from Theano to TensorFlow
 
-By default, Keras will use TensorFlow as its tensor manipulation library. [Follow these instructions](http://keras.io/backend/) to configure the Keras backend.
+For better performance, Intel Keras will use Theano as its tensor manipulation library by default. [Follow these instructions](http://keras.io/backend/) to configure the Keras backend.
 
 ------------------
 
